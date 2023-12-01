@@ -1,7 +1,12 @@
 import "./styles.css";
 
 export default function App() {
-  return <Greeting name="Uwe" />;
+  return (
+    <div>
+      <Greeting name="Uwe" />
+      <Greeting name="Coach" />
+    </div>
+  );
 }
 
 function Greeting({ name }) {
